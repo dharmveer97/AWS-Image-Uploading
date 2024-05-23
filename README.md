@@ -83,7 +83,6 @@ Add the following policy to your S3 bucket's CORS configuration to allow cross-o
 
 ```
 
-Certainly! Here's the content in Markdown format for your README.md file on GitHub:
 
 markdown
 Copy code
