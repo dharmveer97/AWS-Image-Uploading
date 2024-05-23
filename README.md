@@ -83,34 +83,10 @@ Add the following policy to your S3 bucket's CORS configuration to allow cross-o
 
 ```
 
+## Create IAM role
 
-markdown
-Copy code
 
-# Setting up AWS S3 for Image Uploads
 
-Follow these steps to enable image uploading to an AWS S3 bucket in your Next.js application:
-
-## 1. Create an S3 Bucket
-
-- Go to the [AWS S3 Management Console](https://ca-central-1.console.aws.amazon.com/s3/home?region=ca-central-1).
-- Click on "Create bucket."
-- Enter a unique bucket name and select the region from the URL (e.g., ca-central-1).
-- Click "Create."
-
-## 2. Set Up Environment Variables
-
-Add the following environment variables to your `.env` file:
-
-```dotenv
-NEXT_PUBLIC_REGION=your-region
-NEXT_PUBLIC_AWS_BUCKET=your-bucket-name
-NEXT_PUBLIC_AWS_ACCESS_KEY_ID=your-access-key-id
-NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY=your-secret-access-key
-```
-
-3. Create an S3 Bucket Policy
-Add the following policy to your S3 bucket's CORS configuration to allow cross-origin requests:
 
 ## Additional Information
 
